@@ -1,29 +1,17 @@
-# 04_PS39894_PhamNhuQuynh_Assignment
+# 34_PS43423_TranHoangTuan_Assignment
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue 3 project powered by [Vite](https://vitejs.dev/) and managed with [pnpm](https://pnpm.io/). Follow the steps below to set up and run the project.
 
-## Recommended IDE Setup
+## 📦 Requirements
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Node.js](https://nodejs.org/) (version >= 18 recommended)
+- [pnpm](https://pnpm.io/) (version >= 8)
 
-## Customize configuration
+To install `pnpm` globally (if not installed):
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```bash
+npm install -g pnpm
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```continue to: 
+pnpm install
+pnpm dev
