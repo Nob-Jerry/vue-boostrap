@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Technology Blog</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/9029/9029931.png"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style>
+      :root {
+        --brand-primary: #6d54b5;
+        --brand-bg: #0f1220;
+        --brand-surface: #171a2b;
+        --brand-muted: #9aa3af;
+        --brand-primary-600: #5a45a0;
+        --brand-primary-300: #9b86dd;
+      }
+      body {
+        background: var(--brand-bg);
+        color: #e5e7eb;
+      }
+      .bg-body-tertiary {
+        background-color: var(--brand-surface) !important;
+      }
+      .navbar,
+      .card,
+      .dropdown-menu,
+      .form-control,
+      .btn {
+        border-radius: 0.6rem !important;
+      }
+      .card {
+        background-color: #111428;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+      }
+      .form-control,
+      .form-select {
+        background-color: #0d1124;
+        border-color: rgba(255, 255, 255, 0.08);
+        color: #e5e7eb;
+      }
+      .form-control::placeholder {
+        color: #9aa3af;
+      }
+      .btn-primary {
+        background-color: var(--brand-primary);
+        border-color: var(--brand-primary);
+      }
+      .btn-outline-primary {
+        border-color: var(--brand-primary);
+        color: var(--brand-primary);
+      }
+      .btn-outline-primary:hover {
+        background-color: var(--brand-primary);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background-color: var(--brand-primary-600);
+        border-color: var(--brand-primary-600);
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #ffffff, var(--brand-primary-300));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card:hover {
+        border-color: rgba(109, 84, 181, 0.4);
+        box-shadow: 0 8px 28px rgba(109, 84, 181, 0.18);
+      }
+      .link-soft {
+        color: #c7d2fe;
+        text-decoration: none;
+      }
+      .link-soft:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      a,
+      .nav-link {
+        color: #c7d2fe;
+      }
+      .nav-link:hover {
+        color: #fff;
+      }
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: var(--brand-muted);
+      }
+      .text-muted {
+        color: var(--brand-muted) !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

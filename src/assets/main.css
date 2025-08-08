@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.ant-input-affix-wrapper {
+  background-color: #3c364c !important;
+}
+
+.ant-input {
+  background-color: #3c364c !important;
+}
+
+.ant-input::placeholder {
+  color: #fff !important;
+}
