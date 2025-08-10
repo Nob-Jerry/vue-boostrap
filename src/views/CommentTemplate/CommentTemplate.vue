@@ -2,7 +2,6 @@
 import Comment from './Comment.vue'
 import { ref } from 'vue'
 import Login from './Login.vue'
-// import { getEmail } from '@/hook/UseUser'
 const getEmail = localStorage.getItem('email')
 
 const loginEmail = ref('')
@@ -16,7 +15,6 @@ const handleLoginData = (email) => {
 </script>
 <template>
   <div v-if="!getEmail">
-    <!-- "" -->
     <Login @emailLogin="handleLoginData" />
   </div>
   <div v-else>

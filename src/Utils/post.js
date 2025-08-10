@@ -146,7 +146,7 @@ export const items = [
   {
     id: 17,
     title: 'Shadcn UI + Tailwind: Thiết kế giao diện thống nhất',
-    image: 'https://sspark.genspark.ai/cfimages?u1=owxRNqcxG%2BOArG%2FYSAlBsm2dsBxCdQp7IB13E6Tq%2BdplP%2BY04jCPS%2FyNcTM0gze8g%2FGZ1Ta6GMsCWdbEqnx5KlLTHxuQJ0vg%2FsCqlA2d73WALbWXvXHfI04EVeJJjSBQzJiHlkIbIEgzsaPBVZNVw4RfKdbPX%2FXTqXDyP2pnOhaxDNipQoaDovghCdQXJdE%3D&u2=odn1i3mNRlgkT2tF&width=1024',
+    image: 'https://i.ytimg.com/vi/sl2nXEeyYIw/sddefault.jpg',
     content:
       'Thư viện component có thể copy, tuỳ biến cao và dễ bảo trì.',
     detail:

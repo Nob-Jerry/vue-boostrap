@@ -65,6 +65,9 @@ const handleLogout = () => {
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
               <li>
+                <RouterLink to="/profile" class="dropdown-item">Thông tin cá nhân</RouterLink>
+              </li>
+              <li>
                 <button
                   class="dropdown-item"
                   @click="handleLogout"

@@ -15,9 +15,9 @@ const showDetail = (index) => {
   <div class="container py-1">
     <!-- Hero section -->
     <div
-      class="p-4 p-md-5 mb-4 text-white rounded-3"
-      style="background: linear-gradient(135deg, #1a1f3a, #0f1220)"
-    >
+      class="p-4 p-md-5 mb-4 text-white rounded-3 "
+      style="background: linear-gradient(135deg, #404454, #5c5f70)"
+      >
       <div class="col-lg-8 px-0">
         <h1 class="display-6 fw-semibold gradient-text">Blog công nghệ và thủ thuật</h1>
         <p class="lead my-3 ">

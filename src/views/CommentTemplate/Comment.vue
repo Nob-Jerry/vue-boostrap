@@ -39,7 +39,6 @@ const addComment = () => {
 watch(
   () => route.params.id,
   () => {
-    // reset UI state when navigating to another post in the same component
     comments.value = []
     inputComment.value = ''
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -50,7 +49,6 @@ watch(
 <template>
   <div class="container py-4">
     <div class="row g-4">
-      <!-- Main article -->
       <article class="col-12 col-lg-8">
         <nav class="mb-3" aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
@@ -71,7 +69,6 @@ watch(
         <p class="lead text-muted">{{ postDetail.detail }}</p>
       </article>
 
-      <!-- Sidebar: comments -->
       <aside class="col-12 col-lg-4">
         <div class="card shadow-sm border-0">
           <div class="card-body">
@@ -114,7 +111,6 @@ watch(
       </aside>
     </div>
 
-    <!-- Related posts -->
     <div class="mt-5">
       <h2 class="h6 mb-3">Bài viết gợi ý</h2>
       <div class="row g-3">

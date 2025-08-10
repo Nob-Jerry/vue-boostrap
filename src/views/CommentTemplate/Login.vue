@@ -30,7 +30,6 @@ const loginsuccess = () => {
     return
   }
 
-  // Lưu thông tin đăng nhập tối thiểu
   setUserEmail(foundUser.email)
   localStorage.setItem(
     'currentUser',
